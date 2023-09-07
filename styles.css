@@ -1,0 +1,121 @@
+body {
+  width: 50%;
+  text-align: left;
+  font-weight: lighter;
+  padding: 50px;
+}
+
+h1 {
+  color: navy;
+}
+
+h2 {
+  font-size: 100%;
+  color: navy;
+}
+
+h3 {
+  display: inline-block;
+  color: navy;
+}
+
+p {
+  color: black;
+  font-family: serif;
+  font-size: 15;
+}
+
+.introduction {
+  grid-column: 2;
+  height: 100%;
+  width: 50%;
+}
+
+.second-page-text {
+  column-count: 3;
+  width: 100%;
+}
+
+.second-page-text-frame {
+  width: 100%;
+  background-color: #e0ecc4;
+}
+
+.third-page-text {
+  column-count: 3;
+  margin-top: 50%;
+  height: 50%;
+}
+
+.table-title {
+  display: flex;
+}
+
+table {
+  background-color:#FFFFFF;
+  width: 100%;
+  border-collapse: collapse;
+  border-style: hidden;
+  border-top: solid #000 1px;
+  font-size: 80%;
+}
+
+th {
+  background-color:#FFFFFF;
+  border: solid #000 1px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+td {
+  border-left: solid #000 1px;
+  border-right: solid #000 1px;
+  text-align: right;
+  font-size: 80%;
+}
+
+
+tbody {
+  border-collapse: collapse;
+  height: 10%;
+  margin: 5px;
+}
+
+.first-row {
+  font-weight: bold;
+  color: navy;
+}
+
+ul.leaders {
+    max-width: 40em;
+    text-align: left;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none}
+
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "}
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: white;
+  }
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: white}
+
+ul.leaders-bold {
+    max-width: 40em;
+    text-align: left;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+    font-weight: bold;
+  }
